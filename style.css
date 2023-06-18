@@ -1,0 +1,135 @@
+   /* Estilos CSS para o layout */
+   body {
+    background-color: #f5f2f8;
+    color: #6b4e75;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    background-color: #f5f2f8;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  header img {
+    max-width: 190px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  nav {
+    background-color: #d8c5e2;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav a {
+    color: #6b4e75;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  nav a:hover {
+    background-color: #7b5399;
+    color: #fff;
+  }
+
+  /* Estilos para as seções */
+  section {
+    background-color: #e8e3f1;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #724d7c;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  p {
+    color: #6b4e75;
+  }
+
+  ul, ol {
+    color: #6b4e75;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .adoption-button {
+    background-color: #7b5399;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .adoption-button:hover {
+    background-color: #724d7c;
+  }
+
+  .image-container {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .image-container img {
+    max-width: 200px;
+  }
+
+.lista-pets li img{
+    max-width: 250px;
+}
+
+.lista-pets li span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  footer {
+    background-color: #7b5399;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  footer p {
+    color: #fff;
+  }
